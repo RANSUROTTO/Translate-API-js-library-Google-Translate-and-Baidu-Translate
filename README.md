@@ -12,15 +12,15 @@
 
 ## English documents
 > Use documentation: 
-<br/>&nbsp;&nbsp;&nbsp;http://en.shiyong.md <br/>
+<br/>http://en.shiyong.md <br/>
 > Language list:
-<br/>&nbsp;&nbsp;&nbsp;http://en.langlist.md
+<br/>http://en.langlist.md
 
 ## Chinese documents
 > Use documentation: 
-<br/>&nbsp;&nbsp;&nbsp;http://zh.shiyong.md <br/>
+<br/>http://zh.shiyong.md <br/>
 > Language list:
-<br/>&nbsp;&nbsp;&nbsp;http://zh.langlist.md
+<br/>http://zh.langlist.md
 
 ## Japanese documents
 > Use documentation:
