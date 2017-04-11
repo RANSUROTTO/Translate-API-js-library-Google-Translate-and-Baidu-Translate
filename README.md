@@ -3,12 +3,12 @@
 ***
 
 > A free, free and easy way to call google translation and the Chinese Baidu translation API for JavaScript libraries
-一个免费、自由、方便的调用google翻译和中国的百度翻译API的JavaScript库
-Google翻訳を自由に呼び出すことができ、簡単で、中国のBaiduの翻訳APIのJavaScriptライブラリー
+<br/> 一个免费、自由、方便的调用google翻译和中国的百度翻译API的JavaScript库
+<br/> Google翻訳を自由に呼び出すことができ、簡単で、中国のBaiduの翻訳APIのJavaScriptライブラリー
 
 > The document is available in three languages. The order is English, Chinese, Japanese. You can jump to the specified language to read.
-该文档提供三种语言支持。顺序为英语、中文、日语。可自行跳转到指定语言阅读。
-この文書では、3つの言語でサポートを提供します。英語、中国語、日本語で注文。特定の言語の読みにジャンプして自由に。
+<br/> 该文档提供三种语言支持。顺序为英语、中文、日语。可自行跳转到指定语言阅读。
+<br/> この文書では、3つの言語でサポートを提供します。英語、中国語、日本語で注文。特定の言語の読みにジャンプして自由に。
 
 ## English documents
 > Use documentation: http://en.shiyong.md
@@ -50,8 +50,8 @@ Google翻訳を自由に呼び出すことができ、簡単で、中国のBaidu
 
 ## About Author
 > Zheng Zicong (English name : Joe)
-.net software development engineer
-gitPage: https://github.com/ZhengZicong
+<br/> .net software development engineer
+<br/> gitPage: https://github.com/ZhengZicong
 
 ## About permission
 > MIT license
