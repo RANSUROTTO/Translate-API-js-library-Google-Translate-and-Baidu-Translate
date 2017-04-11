@@ -1,4 +1,4 @@
-# Translation API js ibrary (google Translate and Baidu Translation)
+# Translation API js library (google Translate and Baidu Translation)
 
 ***
 
@@ -44,19 +44,20 @@
 > Google translation language list:
     <br/>&nbsp;&nbsp;&nbsp;&nbsp;https://translate.google.cn/about/intl/ALL_cn/languages/
     
-> BaiDu translation:
+> Baidu translation:
     <br/>&nbsp;&nbsp;&nbsp;&nbsp;http://http://fanyi.baidu.com/
     
-> BaiDu translation API<Free limit>:
+> Baidu translation API<Free limit>:
     <br/>&nbsp;&nbsp;&nbsp;&nbsp;http://api.fanyi.baidu.com/api/trans/product/index
     
-> BaiDu translation language list:
+> Baidu translation language list:
     <br/>&nbsp;&nbsp;&nbsp;&nbsp;http://api.fanyi.baidu.com/api/trans/product/apidoc#languageList
     
 
 ## About Author
 > Zheng Zicong (English name : Joe)
 <br/> .net software development engineer
+<br/> personal blog:Not yet developed~
 <br/> GitHubPage: https://github.com/ZhengZicong
 
 ## About permission
