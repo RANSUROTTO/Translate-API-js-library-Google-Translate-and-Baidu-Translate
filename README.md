@@ -16,16 +16,16 @@
 > Language list:
 <br/>http://en.langlist.md
 
-## Chinese documents
-> Use documentation: 
+## 中文文档
+> 使用文档: 
 <br/>http://zh.shiyong.md <br/>
-> Language list:
+> 翻译API语言列表:
 <br/>http://zh.langlist.md
 
-## Japanese documents
-> Use documentation:
+## 日本語のドキュメント
+> 説明書:
 <br/>&nbsp;&nbsp;&nbsp;http://jp.shiyong.md <br/>
-> Language list:
+> 言語翻訳リスト:
 <br/>&nbsp;&nbsp;&nbsp;http://jp.langlist.md
 
 ## About Project
