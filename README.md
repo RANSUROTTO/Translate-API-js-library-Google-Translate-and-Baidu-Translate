@@ -10,6 +10,8 @@
 <br/> この文書では、3つの言語でサポートを提供します。英語、中国語、日本語で注文。特定の言語の読みにジャンプして自由に。
 <br/> The document is available in three languages. The order is English, Chinese, Japanese. You can jump to the specified language to read.
 
+>Of course only API interface URL is important and you can take away APIURL without using this item
+
 ## English documents
 > Use documentation: 
 <br/>http://en.shiyong.md <br/>
