@@ -16,19 +16,19 @@
 > Use documentation: 
 <br/>http://en.shiyong.md <br/>
 > Language list:
-<br/>https://github.com/ZhengZicong/Translation-API-js-library-Google-Translate-and-Baidu-Translation/blob/master/docs/English/Translate%20Language%20List.md
+<br/>[Go To](https://github.com/ZhengZicong/Translation-API-js-library-Google-Translate-and-Baidu-Translation/blob/master/docs/English/Translate%20Language%20List.md)
 
 ## 中文文档
 > 使用文档: 
 <br/>http://zh.shiyong.md <br/>
 > 翻译API语言列表:
-<br/>https://github.com/ZhengZicong/Translation-API-js-library-Google-Translate-and-Baidu-Translation/blob/master/docs/Chinese/%E7%BF%BB%E8%AF%91%E8%AF%AD%E8%A8%80%E5%88%97%E8%A1%A8.md
+<br/>[Go To](https://github.com/ZhengZicong/Translation-API-js-library-Google-Translate-and-Baidu-Translation/blob/master/docs/Chinese/%E7%BF%BB%E8%AF%91%E8%AF%AD%E8%A8%80%E5%88%97%E8%A1%A8.md)
 
 ## 日本語のドキュメント
 > 説明書:
 <br/>&nbsp;&nbsp;&nbsp;http://jp.shiyong.md <br/>
 > 言語翻訳リスト:
-<br/>&nbsp;&nbsp;&nbsp;https://github.com/ZhengZicong/Translation-API-js-library-Google-Translate-and-Baidu-Translation/blob/master/docs/Japanese/%E8%A8%80%E8%AA%9E%E7%BF%BB%E8%A8%B3%E3%83%AA%E3%82%B9%E3%83%88.md
+<br/>[Go To](https://github.com/ZhengZicong/Translation-API-js-library-Google-Translate-and-Baidu-Translation/blob/master/docs/Japanese/%E8%A8%80%E8%AA%9E%E7%BF%BB%E8%A8%B3%E3%83%AA%E3%82%B9%E3%83%88.md)
 
 ## About Project
 * > Based on Jquery.
