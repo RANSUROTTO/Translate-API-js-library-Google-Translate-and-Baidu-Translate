@@ -1,4 +1,4 @@
-# Translation API js library (google Translate and Baidu Translation)
+# Translate API js library (google Translate and Baidu Translate)
 
 ***
 
