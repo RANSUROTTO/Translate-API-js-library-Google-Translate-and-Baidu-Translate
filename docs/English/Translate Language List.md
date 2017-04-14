@@ -2,9 +2,9 @@
 > API required parameters translated corresponding language.
 
 ### Google Translate Language List
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The language list is taken from the web and has not been tested for reference only.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get the latest language list Please go to:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Wikipedia - Google Translate language list](https://zh.wikipedia.org/zh-cn/Google%E7%BF%BB%E8%AF%91#.E7.BF.BB.E8.AF.91.E8.AF.AD.E8.A8.80)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The language list is taken from the web and has not been tested for reference only.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get the latest language list Please go to:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Wikipedia - Google Translate language list](https://zh.wikipedia.org/zh-cn/Google%E7%BF%BB%E8%AF%91#.E7.BF.BB.E8.AF.91.E8.AF.AD.E8.A8.80)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Google Translate API support language list official website](https://cloud.google.com/translate/docs/languages/)
 
 2017-4-12 From the official website to obtain (if missing errors please modify and submit, extremely grateful)
@@ -118,8 +118,8 @@
 
 
 ### Baidu translation language list
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The language list is taken from the web and has not been tested for reference only.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get the latest language list Please go to:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The language list is taken from the web and has not been tested for reference only.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get the latest language list Please go to:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Baidu translation API support language list official website](  http://api.fanyi.baidu.com/api/trans/product/apidoc#languageList)
 
 2017-4-12 From the official website to obtain (if missing errors please modify and submit, extremely grateful)
