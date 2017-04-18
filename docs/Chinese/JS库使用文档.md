@@ -80,6 +80,7 @@ googleTranslate.getTranslate(query, fromL, toL, dtd)
 | setAppKey  | 设置Api AppKey |
 | httpGetTranslate | 通过Api http地址进行翻译 |
 | httpsGetTranslate | 通过Api https地址进行翻译 |
+| toFormat  | 把翻译结果格式转换为本js库提供的格式 |
 
 案例
 ```javascript
