@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Translate Test</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+
+		<!--Input Out -->
+		<div class="parent-container">
+			<div class="left-child-container">
+				<div class="clear-button" onclick="clearInput()">
+					<span class="clear-button-span" onclick="clearInput()"></span>
+				</div>
+				<textarea class="input-text" onkeyup="MaxMe(this)" style="overflow: hidden">Apple</textarea>
+			</div>
+			<div class="right-child-container">
+				<div class="out-panel">
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Select -->
+		<div class="center-child-container">
+			<select name="from">
+				<option value="auto">Auto</option>
+				<option value="zh-CN">Chinese</option>
+				<option value="ja">Japanese</option>
+				<option value="en">English</option>
+			</select>
+			<select name="to">
+				<option value="zh-CN">Chinese</option>
+				<option value="ja">Japanese</option>
+				<option value="en">English</option>
+			</select>
+			<button name="baiduBtn" onclick="bdTranslateMethod()">Baidu Translate Go</button>
+			<button name="googleBtn" onclick="googleTranslateMethod()">Google Translate Go</button>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/md5.js"></script>
+		<script type="text/javascript" src="js/baiduTranslateHelper.js"></script>
+		<script type="text/javascript" src="js/googleTranslateHelper.js"></script>
+
+		<!--Translate JS -->
+		<script type="text/javascript">
+		
+			function googleTranslateMethod() {
+
+				//Translate Loading
+				var fromL = $("select[name='from']").val();
+				var toL = $("select[name='to']").val();
+				var query = $(".input-text").val();
+
+				var dtd = $.Deferred();
+				dtd.done(function(data) {
+					$(".out-panel").text(googleTranslate.toFormat(data).dst);
+				});
+				dtd.fail(function() {
+					Console.log("Service Exception")
+				});
+				googleTranslate.getTranslate(query, fromL, toL, dtd)
+
+			}
+
+			function bdTranslateMethod() {
+				if(baiduTranslate.appid == null || baiduTranslate.appid == undefined || baiduTranslate.appid.trim() == "") {
+					baiduTranslate.setAppId(prompt("使用百度翻译请输入Api-Id", "Please enter Api-Id for Baidu translation"));
+				}
+				if(baiduTranslate.appkey == null || baiduTranslate.appkey == undefined || baiduTranslate.appkey.trim() == "") {
+					baiduTranslate.setAppKey(prompt("使用百度翻译请输入Api-Key", "Please enter Api-Key for Baidu translation"));
+				}
+				//Translate Loading
+				var fromL = $("select[name='from']").val();
+				var toL = $("select[name='to']").val();
+				var query = $(".input-text").val();
+
+				//语言过滤
+				if(fromL == 'zh-CN') fromL = 'zh';
+				if(fromL == 'ja') fromL = 'jp';
+				if(toL == 'zh-CN') toL = 'zh';
+				if(toL == 'ja') toL = 'jp';
+
+				var dtd = $.Deferred();
+				dtd.done(function(data) {
+					try {
+						$(".out-panel").text(baiduTranslate.toFormat(data).dst);
+					} catch(e) {
+						Console.log('appid or appkey is null');
+					}
+				});
+				dtd.fail(function() {
+					Console.log("Service Exception")
+				});
+				baiduTranslate.httpsPostTranslate(query, fromL, toL, dtd)
+
+			}
+
+		</script>
+
+		<!--Html-->
+		<script type="text/javascript">
+			function MaxMe(o) {
+				if(window.navigator.userAgent.indexOf("Firefox") > -1) {
+					o.style.height = o.scrollTop + o.scrollHeight + "px";
+				} else {
+					if(o.scrollTop > 0) o.style.height = o.scrollTop + o.scrollHeight + "px";
+				}
+			}
+
+			function clearInput() {
+				$(".input-text").val("");
+			}
+		</script>
+	</body>
+
+</html>
