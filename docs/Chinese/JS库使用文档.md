@@ -70,9 +70,16 @@ googleTranslate.getTranslate(query, fromL, toL, dtd)
 ```
 {"from":"en","to":"zh-CN","src":"Apple","dst":"苹果"}
 ```
+#### 百度翻译API的使用
+针对百度翻译API进一步封装的js库使用方式
+该js库的方法列表
 
-
-
+| 方法名称  | 方法描述  |
+| ------------ | ------------ |
+| setAppId  |  设置Api AppId  |
+| setAppKey  | 设置Api AppKey |
+| httpGetTranslate | 通过Api http地址进行翻译 |
+| httpsGetTranslate | 通过Api https地址进行翻译 |
 
 
 
