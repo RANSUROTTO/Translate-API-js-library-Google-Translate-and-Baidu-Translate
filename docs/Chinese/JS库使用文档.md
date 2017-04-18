@@ -3,7 +3,7 @@
 ### 须知
 * 使用该js库需要引用 jquery.js。
 * 使用百度翻译API js库需要引用 md5.js。
-* 使用该库需要了解jquery dferred对象。
+* 使用该库需要了解jquery deferred对象。
 * 提供对api的封装快速使用支持。
 ### 安装
 * 本js库不提供NPM、Bower、NuGet支持
