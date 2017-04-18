@@ -81,10 +81,27 @@ googleTranslate.getTranslate(query, fromL, toL, dtd)
 | httpGetTranslate | 通过Api http地址进行翻译 |
 | httpsGetTranslate | 通过Api https地址进行翻译 |
 
+案例
+```javascript
+//Create deferred object
+var dtd = $.Deferred();
+//Success method
+dtd.done(function(data) {
+	// data : Translate result
+});
+//Fail method
+dtd.fail(function() {
+	Console.log("Service Exception")
+});
+//User translate method
+baiduTranslate.httpsGetTranslate(query, fromL, toL, dtd)
+```
 
-
-
-
-
-
-
+默认返回结果示例
+```
+{"from":"en","to":"zh","trans_result":[{"src":"Apple","dst":"苹果"}]}
+```
+本库格式化结果示例
+```
+{"from":"en","to":"zh","src":"Apple","dst":"苹果"}
+```
