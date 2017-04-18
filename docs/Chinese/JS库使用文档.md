@@ -19,5 +19,65 @@
 | getTranslate  |  进行翻译  |
 | toFormat  | 把翻译结果格式转换为本js库提供的格式 |
 
+案例
+```javascript
+//Create deferred object
+var dtd = $.Deferred();
+//Success method
+dtd.done(function(data) {
+	// data : Translate result
+});
+//Fail method
+dtd.fail(function() {
+	Console.log("Service Exception")
+});
+//User translate method
+googleTranslate.getTranslate(query, fromL, toL, dtd)
+```
+默认返回结果示例
+```
+{
+    query {
+        count1,
+        created2017-04-18T013105Z,
+        langzh-CN,
+        results {
+            json {
+                json [
+                    { json { json [ 苹果, Apple, null, null, 1 ] } },
+                    null,
+                    en,
+                    null,
+                    null,
+                    null,
+                    0.60465115,
+                    null,
+                    {
+                        json [
+                            { jsonen },
+                            null,
+                            { json0.60465115 },
+                            { jsonen }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
+```
+本库格式化结果示例
+```
+{"from":"en","to":"zh-CN","src":"Apple","dst":"苹果"}
+```
+
+
+
+
+
+
+
+
+
 
 
