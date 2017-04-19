@@ -31,7 +31,7 @@ dtd.done(function(data) {
 dtd.fail(function() {
 	Console.log("Service Exception")
 });
-//User translate method
+//Use translate method
 googleTranslate.getTranslate(query, fromL, toL, dtd)
 ```
 默认返回结果示例
@@ -94,7 +94,7 @@ dtd.done(function(data) {
 dtd.fail(function() {
 	Console.log("Service Exception")
 });
-//User translate method
+//Use translate method
 baiduTranslate.httpsGetTranslate(query, fromL, toL, dtd)
 ```
 
