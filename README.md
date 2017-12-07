@@ -1,7 +1,7 @@
 # Translate API js library (google Translate and Baidu Translate)
 
 ***
-### 不要问我有那么几种语言文档说明，我就是喜欢挑我喜欢的语言来测试这个项目，如果不喜欢。。。我改就好了。。。。
+### 不要问我为什么有那么几种语言文档说明，我就是喜欢挑我喜欢的语言来测试这个项目，如果不喜欢。那我改行吗(；д；)
 
 >  一个免费、自由、方便的调用google翻译和中国的百度翻译API的JavaScript库
 <br/> Google翻訳を自由に呼び出すことができ、簡単で、中国のBaiduの翻訳APIのJavaScriptライブラリー
