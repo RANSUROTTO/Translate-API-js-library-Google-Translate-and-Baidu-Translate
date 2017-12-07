@@ -31,13 +31,13 @@
 > 言語翻訳リスト:
 <br/>[Click Link To Url](https://github.com/ZhengZicong/Translate-API-js-library-Google-Translate-and-Baidu-Translate/blob/master/docs/Japanese/%E8%A8%80%E8%AA%9E%E7%BF%BB%E8%A8%B3%E3%83%AA%E3%82%B9%E3%83%88.md)
 
-## About Project
+## About project
 * > Based on Jquery.
 * > Very easy to understand a translation request based on ajax api js library.
 * > Spare time write
 * > It is best to know or use Jquery Deferred objects before using the js library.
 
-## About Translation
+## About translation
 > Google translation:
     <br/>&nbsp;&nbsp;&nbsp;&nbsp;https://translate.google.com/
     
