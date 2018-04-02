@@ -48,7 +48,7 @@
     <br/>&nbsp;&nbsp;&nbsp;&nbsp;https://translate.google.cn/about/intl/ALL_cn/languages/
     
 > Baidu translation:
-    <br/>&nbsp;&nbsp;&nbsp;&nbsp;http://http://fanyi.baidu.com/
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;http://fanyi.baidu.com/
     
 > Baidu translation API<Free limit>:
     <br/>&nbsp;&nbsp;&nbsp;&nbsp;http://api.fanyi.baidu.com/api/trans/product/index
